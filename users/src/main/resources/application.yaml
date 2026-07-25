@@ -24,7 +24,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://us-east-1dajfj59xt.auth.us-east-1.amazoncognito.com
+          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_DajFj59Xt
 
 server:
   port: 8686
